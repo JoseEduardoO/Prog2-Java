@@ -16,6 +16,10 @@ public class Ar {
          this.temperatura = 30;
          this.intensidadeMax = 30;
 }
+     public Ar (int temperatura, int intensidadeMax){
+         this.intensidadeMax = 30;
+         this.temperatura = 30;
+     }
      public void ligar(){
          this.setLigada(true);
      }
